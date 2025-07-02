@@ -1,0 +1,51 @@
+body {
+	background-image: url("../images/green-casino.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	text-align: center;
+	font-family: 'Trebuchet MS', sans-serif;
+	color: white;
+}
+
+h1 {
+	color: goldenrod;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 20px;
+}
+
+button{
+	border: 2px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: bold;
+	width: 200px;
+	border-radius: 5px /* round corners */
+
+}
+
+#message-el {
+	font-style: italic;
+	font-size: 30px;
+}
+
+#play-bt {
+	background: #0F52BA; /* Sapphire blue */
+}
+
+#play-bt:active {
+	transform: translateY(2px);
+}
+
+#draw-bt {
+	background: #E0115F; /* ruby red */
+}
+
+#draw-bt:active {
+	transform: translateY(2px);
+}
